@@ -28,6 +28,7 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command) throws PlanetExplorerException{
 		String smer="N";
+		String noviSmer=null;
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -50,16 +51,16 @@ public class PlanetExplorer {
 		String[] komanda = command.split("");
 		for (int i = 0; i < komanda.length;i++)
 		{	
-		if(smer =="N")
+			if(smer =="N")
 			{
-			if (komanda[i].equals("f")){
-				voziloY++;
-			if(komanda[i].equals("l"))
-				smer="W";
-			if(komanda[i].equals("r"))
-				smer="E";
-			if(komanda[i].equals("b"))
-				voziloY=x;
+				if (komanda[i].equals("f")){
+					voziloY++;
+				if(komanda[i].equals("l"))
+					noviSmer="W";
+				if(komanda[i].equals("r"))
+					noviSmer="E";
+				if(komanda[i].equals("b"))
+					voziloY=x;
 			}
 				
 					
@@ -68,6 +69,6 @@ public class PlanetExplorer {
 		/*if(obstacles == ("("+voziloX + "," +  voziloY +")"))
 			throw new PlanetExplorerException();*/
 		
-		return "(" + voziloX + "," + voziloY +"," + smer+ ")";
+		return "(" + voziloX + "," + voziloY +"," + noviSmer+ ")";
 	}
 }
