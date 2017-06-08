@@ -16,9 +16,16 @@ public class TestPlanetExplorer {
 		assertEquals("(0,1,N)", result);
 	}
 	@Test
-	public void test_SamoJednomLevo() throws PlanetExplorerException{
+	public void test_SamoJednomDesno() throws PlanetExplorerException{
 		PlanetExplorer explorer = new PlanetExplorer(3,3 ,"(2,2)");
-		String result=explorer.executeCommand("f");
+		String result=explorer.executeCommand("r");
 		assertEquals("(0,0,E)", result);
 	}
+	@Test
+	public void test_SamoJednomLevo() throws PlanetExplorerException{
+		PlanetExplorer explorer = new PlanetExplorer(3,3 ,"(2,2)");
+		String result=explorer.executeCommand("l");
+		assertEquals("(0,0,W)", result);
+	}
+	
 }

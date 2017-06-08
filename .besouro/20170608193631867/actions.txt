@@ -56,3 +56,4 @@ RefactoringAction 1496944813763 TestPlanetExplorer.java RENAME test_SamoJednomLe
 RefactoringAction 1496944817296 TestPlanetExplorer.java RENAME test_SamoJednom()=>void test_SamoJednomLevo()/2 METHOD
 RefactoringAction 1496944820323 TestPlanetExplorer.java RENAME test_SamoJednomLevo()/2=>void test_SamoJednomDesno() METHOD
 EditAction 1496944856430 PlanetExplorer.java 1370 2 2 0
+EditAction 1496944859607 TestPlanetExplorer.java 990 3 9 3
