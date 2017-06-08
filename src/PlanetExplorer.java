@@ -28,7 +28,7 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command) throws PlanetExplorerException{
 		String smer="N";
-		
+		String pozicija = "("+voziloX+","+voziloY+")";
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -66,8 +66,8 @@ public class PlanetExplorer {
 					
 			}
 		}*/
-		/*if(obstacles == ("("+voziloX + "," +  voziloY +")"))
-			throw new PlanetExplorerException();*/
+		if(obstacles ==pozicija)
+			throw new PlanetExplorerException();
 		
 		return "(" + voziloX + "," + voziloY +"," + smer+ ")";
 	}

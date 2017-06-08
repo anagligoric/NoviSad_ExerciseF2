@@ -130,3 +130,7 @@ EditAction 1496946242728 PlanetExplorer.java 2150 3 10 0
 UnitTestCaseAction 1496946246843 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496946246849 TestPlanetExplorer.java FAIL
 EditAction 1496946297645 PlanetExplorer.java 2117 3 8 0
+UnitTestCaseAction 1496946301636 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496946301642 TestPlanetExplorer.java OK
+RefactoringAction 1496946306740 TestPlanetExplorer.java ADD void test_VoziloUCelijiSaPreprekom() METHOD
+EditAction 1496946370661 PlanetExplorer.java 2131 3 10 0
