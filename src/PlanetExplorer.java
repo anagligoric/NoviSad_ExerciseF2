@@ -81,8 +81,10 @@ public class PlanetExplorer {
 		}
 		if(obstacles ==pozicija)
 			throw new PlanetExplorerException();
-		
-		return "(" + voziloX + "," + voziloY +"," + smer+ ")";
+		if (j==0)
+		return "(" + voziloX + "," + voziloY +"," + "N)";
+		else if(j==0)
+			return "(" + voziloX + "," + voziloY +"," + "E)";
 	}
 
 }
