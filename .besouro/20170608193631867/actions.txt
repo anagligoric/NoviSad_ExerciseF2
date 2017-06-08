@@ -107,3 +107,6 @@ RefactoringAction 1496945763791 TestPlanetExplorer.java ADD void test_VoziloUCel
 RefactoringAction 1496945766322 TestPlanetExplorer.java REMOVE test_VoziloUCelijiSaPreprekom() METHOD
 EditAction 1496945871288 PlanetExplorer.java 2135 3 8 0
 EditAction 1496945874490 TestPlanetExplorer.java 1213 4 12 4
+UnitTestCaseAction 1496945880129 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496945880131 TestPlanetExplorer.java FAIL
+EditAction 1496946035688 PlanetExplorer.java 2133 3 8 0
