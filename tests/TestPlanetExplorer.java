@@ -27,5 +27,11 @@ public class TestPlanetExplorer {
 		String result=explorer.executeCommand("l");
 		assertEquals("(0,0,W)", result);
 	}
+	@Test
+	public void test_SamoJednomNazad() throws PlanetExplorerException{
+		PlanetExplorer explorer = new PlanetExplorer(3,3 ,"(2,2)");
+		String result=explorer.executeCommand("b");
+		assertEquals("(0,2,N)", result);
+	}
 	
 }
