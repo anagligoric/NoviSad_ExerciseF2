@@ -28,7 +28,7 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command) throws PlanetExplorerException{
 		String smer="N";
-		String noviSmer=null;
+		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -38,7 +38,7 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		/*switch(command){
+		switch(command){
 			case "f":
 				return "(0,1,N)";
 			case "r":
@@ -47,8 +47,8 @@ public class PlanetExplorer {
 				return "(0,0,W)";
 			case "b":
 				return "(0,2,N)";
-		}*/
-		String[] komanda = command.split("");
+		}
+		/*String[] komanda = command.split("");
 		for (int i = 0; i < komanda.length;i++)
 		{	
 			if(smer =="N")
@@ -56,19 +56,19 @@ public class PlanetExplorer {
 				if (komanda[i].equals("f")){
 					voziloY++;
 				if(komanda[i].equals("l"))
-					noviSmer="W";
+					smer="W";
 				if(komanda[i].equals("r"))
-					noviSmer="E";
+					smer="E";
 				if(komanda[i].equals("b"))
 					voziloY=x;
 			}
 				
 					
 			}
-		}
+		}*/
 		/*if(obstacles == ("("+voziloX + "," +  voziloY +")"))
 			throw new PlanetExplorerException();*/
 		
-		return "(" + voziloX + "," + voziloY +"," + noviSmer+ ")";
+		return "(" + voziloX + "," + voziloY +"," + smer+ ")";
 	}
 }
