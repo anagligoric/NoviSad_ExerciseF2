@@ -114,3 +114,9 @@ UnitTestCaseAction 1496946041374 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496946041376 TestPlanetExplorer.java FAIL
 RefactoringAction 1496946043848 PlanetExplorer.java REMOVE smer FIELD
 EditAction 1496946056609 PlanetExplorer.java 2127 3 8 0
+CompilationAction 1496946061490 PlanetExplorer.java
+RefactoringAction 1496946068139 PlanetExplorer.java ADD String smer FIELD
+CompilationAction 1496946074105 PlanetExplorer.java
+UnitTestCaseAction 1496946075082 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496946075084 TestPlanetExplorer.java FAIL
+EditAction 1496946110909 PlanetExplorer.java 2128 3 8 0
