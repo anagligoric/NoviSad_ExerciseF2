@@ -166,3 +166,12 @@ UnitTestSessionAction 1496947077735 TestPlanetExplorer.java FAIL
 RefactoringAction 1496947101721 TestPlanetExplorer.java ADD void test FIELD
 RefactoringAction 1496947103254 TestPlanetExplorer.java RENAME test=>void test_ff FIELD
 EditAction 1496947148455 TestPlanetExplorer.java 1609 6 18 6
+UnitTestCaseAction 1496947152606 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947152610 TestPlanetExplorer.java FAIL
+RefactoringAction 1496947266152 PlanetExplorer.java RENAME i=>int smer FIELD
+UnitTestCaseAction 1496947315428 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947315429 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496947458587 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947458589 TestPlanetExplorer.java FAIL
+RefactoringAction 1496947501860 TestPlanetExplorer.java ADD void test FIELD
+EditAction 1496947645753 PlanetExplorer.java 2667 3 10 0

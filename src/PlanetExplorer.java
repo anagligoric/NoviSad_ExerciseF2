@@ -8,7 +8,7 @@ public class PlanetExplorer {
 	String obstacles;
 	int voziloX = 0;
 	int voziloY=0;
-	int i=0;
+	int smer=0;
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -27,7 +27,7 @@ public class PlanetExplorer {
 	}
 	
 	public String executeCommand(String command) throws PlanetExplorerException{
-		String smer="N";
+		//String smer="N";
 		String pozicija = "("+voziloX+","+voziloY+")";
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -50,40 +50,52 @@ public class PlanetExplorer {
 				return "(0,2,N)";
 		}
 		String[] komanda = command.split("");
-		for (int i = 0; i < komanda.length;i++)
+		/*for (int i = 0; i < komanda.length;i++)
 		{	//sever
-			if(j ==0)
+			if(smer ==0)
 			{
 				if (komanda[i].equals("f")){
 					voziloY++;
 				if(komanda[i].equals("l"))
-					j=4;
+					smer=4;
 				if(komanda[i].equals("r"))
-					j=1;;
+					smer=1;;
 				if(komanda[i].equals("b"))
 					voziloY=x;
 			}
 				//istok
-			else if(j == 1){
+			else if(smer == 1){
 				if (komanda[i].equals("f"))
 					voziloX++;
 				if(komanda[i].equals("l"))
-					j=4;
+					smer=4;
 				if(komanda[i].equals("r"))
-					j=1;
+					smer=1;
 				if(komanda[i].equals("b"))
 					voziloX--;
-			}
+			}*/
+				if(komanda[i]=="f")
+				{//sever
+					if(smer == 0)
+						voziloY++;
+					//istok
+					else if(smer==1)
+						voziloX++;
+					//zapad
+					else if(smer==2)
+						voziloX--;
+				}
 			
 				
 					
 			}
 		}
+		
 		if(obstacles ==pozicija)
 			throw new PlanetExplorerException();
-		if (j==0)
+		if (smer==0)
 		return "(" + voziloX + "," + voziloY +"," + "N)";
-		else if(j==0)
+		else if(smer==1)
 			return "(" + voziloX + "," + voziloY +"," + "E)";
 		return null;
 	}
