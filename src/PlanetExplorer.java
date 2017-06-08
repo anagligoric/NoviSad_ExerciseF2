@@ -27,7 +27,7 @@ public class PlanetExplorer {
 		 */
 		switch(command){
 			case "f":
-				return "0,1,N";
+				return "(0,1,N)";
 		}
 		return null;
 	}
