@@ -46,4 +46,5 @@ public class TestPlanetExplorer {
 		String result=explorer.executeCommand("b");
 		assertEquals("(0,2,N)", result);
 	}
+	
 }

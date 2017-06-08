@@ -175,3 +175,17 @@ UnitTestCaseAction 1496947458587 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496947458589 TestPlanetExplorer.java FAIL
 RefactoringAction 1496947501860 TestPlanetExplorer.java ADD void test FIELD
 EditAction 1496947645753 PlanetExplorer.java 2667 3 10 0
+CompilationAction 1496947648786 PlanetExplorer.java
+CompilationAction 1496947648787 PlanetExplorer.java
+CompilationAction 1496947649314 TestPlanetExplorer.java
+CompilationAction 1496947649315 TestPlanetExplorer.java
+CompilationAction 1496947649317 TestPlanetExplorer.java
+CompilationAction 1496947685933 PlanetExplorer.java
+CompilationAction 1496947685934 PlanetExplorer.java
+RefactoringAction 1496947697561 TestPlanetExplorer.java REMOVE test FIELD
+CompilationAction 1496947699340 TestPlanetExplorer.java
+CompilationAction 1496947699341 TestPlanetExplorer.java
+CompilationAction 1496947699342 TestPlanetExplorer.java
+UnitTestCaseAction 1496947708093 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947708095 TestPlanetExplorer.java FAIL
+EditAction 1496947772391 PlanetExplorer.java 2374 3 13 0
