@@ -1,0 +1,36 @@
+FileOpenedAction 1496943392702 PlanetExplorer.java 1245 2 1 0
+RefactoringAction 1496943835254 Test.java ADD void test_ FIELD
+RefactoringAction 1496943858282 Test.java RENAME test_=>void test_VozilaIzvan FIELD
+RefactoringAction 1496943860294 Test.java RENAME test_VozilaIzvan=>void test_VozilaIzvanGranica FIELD
+RefactoringAction 1496943876813 Test.java REMOVE test_VozilaIzvanGranica FIELD
+RefactoringAction 1496943994348 Test.java ADD void test_ FIELD
+RefactoringAction 1496943995365 Test.java RENAME test_=>void test_v FIELD
+RefactoringAction 1496943996876 Test.java RENAME test_v=>void test_vozila FIELD
+RefactoringAction 1496943997889 Test.java RENAME test_vozila=>void test_vozilaNa FIELD
+RefactoringAction 1496944002401 Test.java RENAME test_vozilaNa=>void test_vozil FIELD
+RefactoringAction 1496944009911 Test.java RENAME test_vozil=>void test_voziloUCelijiSaPreprekom FIELD
+RefactoringAction 1496944013432 Test.java RENAME test_voziloUCelijiSaPreprekom=>void test_voziloUCelijiSaPreprekom() METHOD
+FileOpenedAction 1496944026402 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1496944049472 TestPlanetExplorer.java RENAME test_executeCommand()=>void test_VoziloU() METHOD
+RefactoringAction 1496944054001 TestPlanetExplorer.java RENAME test_VoziloU()=>void test_VoziloUCelijiSaPreprekom() METHOD
+RefactoringAction 1496944097924 PlanetExplorerException.java ADD PlanetExplorer explorer FIELD
+RefactoringAction 1496944169150 PlanetExplorerException.java ADD String result FIELD
+RefactoringAction 1496944212809 PlanetExplorerException.java ADD void assertEquals() METHOD
+RefactoringAction 1496944217834 PlanetExplorerException.java REMOVE assertEquals() METHOD
+RefactoringAction 1496944219863 PlanetExplorerException.java REMOVE result FIELD
+RefactoringAction 1496944241435 PlanetExplorerException.java ADD String result FIELD
+RefactoringAction 1496944299973 PlanetExplorerException.java REMOVE result FIELD
+RefactoringAction 1496944299980 PlanetExplorerException.java REMOVE explorer FIELD
+RefactoringAction 1496944319678 TestPlanetExplorer.java REMOVE test_VoziloUCelijiSaPreprekom() METHOD
+RefactoringAction 1496944331249 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1496944334280 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1496944341795 TestPlanetExplorer.java RENAME test_=>void test_Vozilo FIELD
+RefactoringAction 1496944356322 TestPlanetExplorer.java RENAME test_Vozilo=>void test_VoziloIdeU FIELD
+RefactoringAction 1496944359847 TestPlanetExplorer.java RENAME test_VoziloIdeU=>void test_ FIELD
+RefactoringAction 1496944361366 TestPlanetExplorer.java RENAME test_=>void test_funkcija FIELD
+RefactoringAction 1496944363401 TestPlanetExplorer.java RENAME test_funkcija=>void test_funkcijaForwars FIELD
+RefactoringAction 1496944364428 TestPlanetExplorer.java RENAME test_funkcijaForwars=>void test_funkcijaForwars() METHOD
+RefactoringAction 1496944571581 TestPlanetExplorer.java RENAME test_funkcijaForwars()=>void test_() METHOD
+RefactoringAction 1496944582605 TestPlanetExplorer.java RENAME test_()=>void test_SamoJedan() METHOD
+RefactoringAction 1496944587628 TestPlanetExplorer.java RENAME test_SamoJedan()=>void test_SamoJednomNapred() METHOD
+EditAction 1496944628609 PlanetExplorer.java 1298 2 2 0
