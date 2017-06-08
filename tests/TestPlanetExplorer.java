@@ -15,13 +15,13 @@ public class TestPlanetExplorer {
 		String result=explorer.executeCommand("f");
 		assertEquals("(0,1,N)", result);
 	}
-	/*@Test
+	@Test
 	public void test_SamoJednomDesno() throws PlanetExplorerException{
 		PlanetExplorer explorer = new PlanetExplorer(3,3 ,"(2,2)");
 		String result=explorer.executeCommand("r");
 		assertEquals("(0,0,E)", result);
 	}
-	@Test
+	/*@Test
 	public void test_SamoJednomLevo() throws PlanetExplorerException{
 		PlanetExplorer explorer = new PlanetExplorer(3,3 ,"(2,2)");
 		String result=explorer.executeCommand("l");

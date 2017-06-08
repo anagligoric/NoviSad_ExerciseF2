@@ -98,3 +98,4 @@ RefactoringAction 1496945749714 TestPlanetExplorer.java REMOVE test_SamoJednomLe
 RefactoringAction 1496945749715 TestPlanetExplorer.java REMOVE test_SamoJednomNazad() METHOD
 RefactoringAction 1496945749716 TestPlanetExplorer.java REMOVE test_VoziloUCelijiSaPreprekom() METHOD
 EditAction 1496945752420 PlanetExplorer.java 2038 3 8 0
+EditAction 1496945756952 TestPlanetExplorer.java 1440 2 6 2
