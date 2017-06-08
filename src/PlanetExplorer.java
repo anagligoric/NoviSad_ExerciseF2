@@ -74,6 +74,28 @@ public class PlanetExplorer {
 						smer = 1;
 					}
 				}
+				if(komanda[i]=="l")
+				{
+					if(smer==0)
+						smer = 2;
+					else if (smer==1){
+						smer = 1;
+					}
+					else if(smer==2){
+						
+					}
+				}
+				if(komanda[i]=="b")
+				{
+					if(smer==0)
+						voziloY--;
+					else if (smer==1){
+						voziloX++;
+					}
+					else if(smer==2){
+						voziloX--;
+					}
+				}
 			
 				
 					
