@@ -34,3 +34,4 @@ RefactoringAction 1496944571581 TestPlanetExplorer.java RENAME test_funkcijaForw
 RefactoringAction 1496944582605 TestPlanetExplorer.java RENAME test_()=>void test_SamoJedan() METHOD
 RefactoringAction 1496944587628 TestPlanetExplorer.java RENAME test_SamoJedan()=>void test_SamoJednomNapred() METHOD
 EditAction 1496944628609 PlanetExplorer.java 1298 2 2 0
+EditAction 1496944632220 TestPlanetExplorer.java 547 1 3 1
