@@ -8,7 +8,7 @@ public class PlanetExplorer {
 	String obstacles;
 	int voziloX = 0;
 	int voziloY=0;
-	public String smer;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -27,7 +27,7 @@ public class PlanetExplorer {
 	}
 	
 	public String executeCommand(String command) throws PlanetExplorerException{
-		
+		String smer="N";
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -49,7 +49,7 @@ public class PlanetExplorer {
 		}*/
 		String[] komanda = command.split("");
 		for (int i = 0; i < komanda.length;i++)
-		{	smer ="N";
+		{	
 		if(smer =="N")
 			{
 			if (komanda[i].equals("f")){
@@ -60,9 +60,7 @@ public class PlanetExplorer {
 				smer="E";
 			if(komanda[i].equals("b"))
 				voziloY=x;
-				
-					
-		}
+			}
 				
 					
 			}
