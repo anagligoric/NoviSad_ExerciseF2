@@ -4,6 +4,10 @@
 // Student ID:
 
 public class PlanetExplorer {
+	public int x, y;
+	String obstacles;
+	int voziloX = 0;
+	int voziloY=0;
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -12,9 +16,16 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+		this.x=x;
+		this.y=y;
+		this.obstacles=obstacles;
+	}
+	public PlanetExplorer (int x, int y){
+		this.x=x;
+		this.y=y;
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws PlanetExplorerException{
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -35,6 +46,9 @@ public class PlanetExplorer {
 			case "b":
 				return "(0,2,N)";
 		}
+		if(obstacles == ("("+voziloX + "," +  voziloY +")"))
+			throw new PlanetExplorerException();
+		
 		return null;
 	}
 }

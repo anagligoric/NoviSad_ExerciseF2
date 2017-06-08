@@ -4,3 +4,5 @@
 1496944863556 test-first 4 54 true
 1496944863557 test-last 1 54 false
 1496944872992 regression 1 0 true
+1496944963039 test-first 4 68 true
+1496944963040 test-last 1 68 false

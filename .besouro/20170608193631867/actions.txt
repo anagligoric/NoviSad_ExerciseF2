@@ -65,3 +65,16 @@ RefactoringAction 1496944894561 TestPlanetExplorer.java ADD void test_SamoJednom
 RefactoringAction 1496944900592 TestPlanetExplorer.java RENAME test_SamoJednomLevo()/2=>void test_SamoJednomNazad() METHOD
 EditAction 1496944954755 PlanetExplorer.java 1405 2 2 0
 EditAction 1496944959078 TestPlanetExplorer.java 1211 4 12 4
+UnitTestCaseAction 1496944963036 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496944963039 TestPlanetExplorer.java OK
+RefactoringAction 1496945016593 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1496945016594 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1496945030222 PlanetExplorer.java ADD String ob FIELD
+RefactoringAction 1496945033258 PlanetExplorer.java RENAME ob=>String obstacles FIELD
+RefactoringAction 1496945051828 PlanetExplorer.java ADD PlanetExplorer(int) METHOD
+RefactoringAction 1496945052868 PlanetExplorer.java RENAME PlanetExplorer(int)=>PlanetExplorer(int, int) METHOD
+RefactoringAction 1496945093008 TestPlanetExplorer.java ADD void test_VoziloUCelijiSaPreprekom() METHOD
+RefactoringAction 1496945156934 PlanetExplorer.java ADD int voziloX FIELD
+RefactoringAction 1496945162039 PlanetExplorer.java ADD int vozilo FIELD
+RefactoringAction 1496945163567 PlanetExplorer.java RENAME vozilo=>int voziloY FIELD
+EditAction 1496945313196 PlanetExplorer.java 1723 3 8 0
