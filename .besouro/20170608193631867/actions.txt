@@ -147,3 +147,9 @@ UnitTestSessionAction 1496946538526 TestPlanetExplorer.java OK
 RefactoringAction 1496946586189 TestPlanetExplorer.java ADD void test_ffrf() METHOD
 EditAction 1496946742232 PlanetExplorer.java 2548 3 12 0
 EditAction 1496946745573 TestPlanetExplorer.java 1403 5 15 5
+UnitTestCaseAction 1496946751991 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496946751992 TestPlanetExplorer.java FAIL
+RefactoringAction 1496946838817 PlanetExplorer.java ADD int i FIELD
+RefactoringAction 1496946843934 PlanetExplorer.java REMOVE i FIELD
+RefactoringAction 1496946845980 PlanetExplorer.java ADD int i FIELD
+EditAction 1496946976633 PlanetExplorer.java 2361 3 13 0
