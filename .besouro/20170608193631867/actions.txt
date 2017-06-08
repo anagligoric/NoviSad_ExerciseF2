@@ -110,3 +110,7 @@ EditAction 1496945874490 TestPlanetExplorer.java 1213 4 12 4
 UnitTestCaseAction 1496945880129 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496945880131 TestPlanetExplorer.java FAIL
 EditAction 1496946035688 PlanetExplorer.java 2133 3 8 0
+UnitTestCaseAction 1496946041374 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496946041376 TestPlanetExplorer.java FAIL
+RefactoringAction 1496946043848 PlanetExplorer.java REMOVE smer FIELD
+EditAction 1496946056609 PlanetExplorer.java 2127 3 8 0
