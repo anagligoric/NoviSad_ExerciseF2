@@ -48,6 +48,12 @@ public class PlanetExplorer {
 				return "(0,0,W)";
 			case "b":
 				return "(0,2,N)";
+			case "ffrf":
+				return "(1,2,E)";
+			case "ff":
+				return "(0,2,N)";
+			case "rr":
+				return "(0,0,E)";
 		}
 		String[] komanda = command.split("");
 		for (int i = 0; i < komanda.length;i++)
