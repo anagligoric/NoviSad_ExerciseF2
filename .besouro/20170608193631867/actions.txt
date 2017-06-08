@@ -78,3 +78,4 @@ RefactoringAction 1496945156934 PlanetExplorer.java ADD int voziloX FIELD
 RefactoringAction 1496945162039 PlanetExplorer.java ADD int vozilo FIELD
 RefactoringAction 1496945163567 PlanetExplorer.java RENAME vozilo=>int voziloY FIELD
 EditAction 1496945313196 PlanetExplorer.java 1723 3 8 0
+EditAction 1496945316631 TestPlanetExplorer.java 1436 5 14 4
