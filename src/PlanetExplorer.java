@@ -48,7 +48,7 @@ public class PlanetExplorer {
 			case "b":
 				return "(0,2,N)";
 		}
-		/*String[] komanda = command.split("");
+		String[] komanda = command.split("");
 		for (int i = 0; i < komanda.length;i++)
 		{	
 			if(smer =="N")
@@ -62,13 +62,34 @@ public class PlanetExplorer {
 				if(komanda[i].equals("b"))
 					voziloY=x;
 			}
+			if(smer=="E"){
+				if (komanda[i].equals("f"))
+					voziloX++;
+				if(komanda[i].equals("l"))
+					smer="W";
+				if(komanda[i].equals("r"))
+					smer="E";
+				if(komanda[i].equals("b"))
+					voziloX--;
+			}
+			if(smer=="S"){
+				if (komanda[i].equals("f"))
+					voziloY++;
+				if(komanda[i].equals("l"))
+					smer="W";
+				if(komanda[i].equals("r"))
+					smer="E";
+				if(komanda[i].equals("b"))
+					voziloY--;
+			}
 				
 					
 			}
-		}*/
+		}
 		if(obstacles ==pozicija)
 			throw new PlanetExplorerException();
 		
 		return "(" + voziloX + "," + voziloY +"," + smer+ ")";
 	}
+
 }

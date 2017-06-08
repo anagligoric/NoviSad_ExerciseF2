@@ -142,3 +142,7 @@ UnitTestCaseAction 1496946411296 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496946411298 TestPlanetExplorer.java FAIL
 RefactoringAction 1496946467904 TestPlanetExplorer.java REMOVE test_VoziloUCelijiSaPreprekom() METHOD
 EditAction 1496946534137 TestPlanetExplorer.java 1198 4 12 4
+UnitTestCaseAction 1496946538524 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496946538526 TestPlanetExplorer.java OK
+RefactoringAction 1496946586189 TestPlanetExplorer.java ADD void test_ffrf() METHOD
+EditAction 1496946742232 PlanetExplorer.java 2548 3 12 0
