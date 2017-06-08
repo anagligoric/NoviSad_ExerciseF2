@@ -138,3 +138,7 @@ EditAction 1496946376017 TestPlanetExplorer.java 1209 5 14 4
 UnitTestCaseAction 1496946379919 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496946379920 TestPlanetExplorer.java FAIL
 EditAction 1496946407517 TestPlanetExplorer.java 1206 5 14 4
+UnitTestCaseAction 1496946411296 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496946411298 TestPlanetExplorer.java FAIL
+RefactoringAction 1496946467904 TestPlanetExplorer.java REMOVE test_VoziloUCelijiSaPreprekom() METHOD
+EditAction 1496946534137 TestPlanetExplorer.java 1198 4 12 4
