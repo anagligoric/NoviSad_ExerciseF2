@@ -40,4 +40,10 @@ public class TestPlanetExplorer {
 		String result=explorer.executeCommand("b");
 		assertEquals("(1,2,E)", result);
 	}
+	@Test 
+	public void test_ff() throws PlanetExplorerException{
+		PlanetExplorer explorer = new PlanetExplorer(3,3 ,null);
+		String result=explorer.executeCommand("b");
+		assertEquals("(0,2,N)", result);
+	}
 }

@@ -161,3 +161,8 @@ EditAction 1496947042514 PlanetExplorer.java 2449 3 14 0
 UnitTestCaseAction 1496947046581 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496947046584 TestPlanetExplorer.java FAIL
 EditAction 1496947073720 PlanetExplorer.java 2448 3 14 0
+UnitTestCaseAction 1496947077733 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947077735 TestPlanetExplorer.java FAIL
+RefactoringAction 1496947101721 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1496947103254 TestPlanetExplorer.java RENAME test=>void test_ff FIELD
+EditAction 1496947148455 TestPlanetExplorer.java 1609 6 18 6
