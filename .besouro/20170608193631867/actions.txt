@@ -49,3 +49,10 @@ RefactoringAction 1496944702796 TestPlanetExplorer.java RENAME test_SamoJednom=>
 RefactoringAction 1496944705457 TestPlanetExplorer.java RENAME test_SamoJednomLevo=>void test_SamoJednomLevo() METHOD
 EditAction 1496944788172 PlanetExplorer.java 1335 2 2 0
 EditAction 1496944791405 TestPlanetExplorer.java 767 2 6 2
+UnitTestCaseAction 1496944795665 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496944795669 TestPlanetExplorer.test_SamoJednomNapred OK
+RefactoringAction 1496944808735 TestPlanetExplorer.java ADD void test_SamoJednomLevo()/2 METHOD
+RefactoringAction 1496944813763 TestPlanetExplorer.java RENAME test_SamoJednomLevo()/2=>void test_SamoJednom() METHOD
+RefactoringAction 1496944817296 TestPlanetExplorer.java RENAME test_SamoJednom()=>void test_SamoJednomLevo()/2 METHOD
+RefactoringAction 1496944820323 TestPlanetExplorer.java RENAME test_SamoJednomLevo()/2=>void test_SamoJednomDesno() METHOD
+EditAction 1496944856430 PlanetExplorer.java 1370 2 2 0
