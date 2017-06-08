@@ -32,7 +32,7 @@ public class TestPlanetExplorer {
 	@Test (expected=PlanetExplorerException.class)
 	public void test_VoziloUCelijiSaPreprekom() throws PlanetExplorerException{
 		PlanetExplorer explorer = new PlanetExplorer(3,3 ,"(0,1)");
-		explorer.executeCommand("fflr");
+		explorer.executeCommand("f");
 	}
 	
 }
