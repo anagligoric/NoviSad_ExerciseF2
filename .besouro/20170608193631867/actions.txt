@@ -39,3 +39,12 @@ EditAction 1496944635945 PlanetExplorerException.java 62 0 0 0
 UnitTestCaseAction 1496944640674 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496944640676 TestPlanetExplorer.test_SamoJednomNapred FAIL
 EditAction 1496944654863 PlanetExplorer.java 1300 2 2 0
+UnitTestCaseAction 1496944659783 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496944659786 TestPlanetExplorer.test_SamoJednomNapred OK
+RefactoringAction 1496944671141 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1496944674672 TestPlanetExplorer.java RENAME test_=>void test_SamoJednom FIELD
+RefactoringAction 1496944676717 TestPlanetExplorer.java RENAME test_SamoJednom=>void test_SamoJednomNaz FIELD
+RefactoringAction 1496944678266 TestPlanetExplorer.java RENAME test_SamoJednomNaz=>void test_SamoJednom FIELD
+RefactoringAction 1496944702796 TestPlanetExplorer.java RENAME test_SamoJednom=>void test_SamoJednomLevo FIELD
+RefactoringAction 1496944705457 TestPlanetExplorer.java RENAME test_SamoJednomLevo=>void test_SamoJednomLevo() METHOD
+EditAction 1496944788172 PlanetExplorer.java 1335 2 2 0

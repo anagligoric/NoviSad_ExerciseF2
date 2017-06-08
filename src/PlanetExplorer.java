@@ -28,6 +28,8 @@ public class PlanetExplorer {
 		switch(command){
 			case "f":
 				return "(0,1,N)";
+			case "l":
+				return "(0,0,E)";
 		}
 		return null;
 	}
