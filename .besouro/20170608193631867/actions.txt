@@ -88,3 +88,13 @@ RefactoringAction 1496945611302 TestPlanetExplorer.java REMOVE test_SamoJednomNa
 RefactoringAction 1496945611303 TestPlanetExplorer.java REMOVE test_VoziloUCelijiSaPreprekom() METHOD
 EditAction 1496945688375 PlanetExplorer.java 1983 3 8 0
 EditAction 1496945691572 TestPlanetExplorer.java 1440 1 3 1
+UnitTestCaseAction 1496945697342 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496945697346 TestPlanetExplorer.java OK
+RefactoringAction 1496945745141 TestPlanetExplorer.java ADD void test_SamoJednomDesno() METHOD
+RefactoringAction 1496945745143 TestPlanetExplorer.java ADD void test_SamoJednomLevo() METHOD
+RefactoringAction 1496945745144 TestPlanetExplorer.java ADD void test_SamoJednomNazad() METHOD
+RefactoringAction 1496945745146 TestPlanetExplorer.java ADD void test_VoziloUCelijiSaPreprekom() METHOD
+RefactoringAction 1496945749714 TestPlanetExplorer.java REMOVE test_SamoJednomLevo() METHOD
+RefactoringAction 1496945749715 TestPlanetExplorer.java REMOVE test_SamoJednomNazad() METHOD
+RefactoringAction 1496945749716 TestPlanetExplorer.java REMOVE test_VoziloUCelijiSaPreprekom() METHOD
+EditAction 1496945752420 PlanetExplorer.java 2038 3 8 0

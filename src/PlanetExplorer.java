@@ -54,6 +54,9 @@ public class PlanetExplorer {
 			case "N":
 				if (komanda[i].equals("f")){
 					voziloY++;
+					if(komanda[i].equals("l"))
+						smer="W";
+						
 				}
 				
 					
