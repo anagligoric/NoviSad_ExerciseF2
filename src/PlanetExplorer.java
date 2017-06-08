@@ -8,6 +8,7 @@ public class PlanetExplorer {
 	String obstacles;
 	int voziloX = 0;
 	int voziloY=0;
+	String smer ="N";
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -36,7 +37,7 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		switch(command){
+		/*switch(command){
 			case "f":
 				return "(0,1,N)";
 			case "r":
@@ -45,10 +46,22 @@ public class PlanetExplorer {
 				return "(0,0,W)";
 			case "b":
 				return "(0,2,N)";
+		}*/
+		String[] komanda = command.split("");
+		for (int i = 0; i < komanda.length;i++)
+		{
+			switch(smer){
+			case "N":
+				if (komanda[i].equals("f")){
+					voziloY++;
+				}
+				
+					
+			}
 		}
-		if(obstacles == ("("+voziloX + "," +  voziloY +")"))
-			throw new PlanetExplorerException();
+		/*if(obstacles == ("("+voziloX + "," +  voziloY +")"))
+			throw new PlanetExplorerException();*/
 		
-		return null;
+		return "(" + voziloX + "," + voziloY +"," + smer+ ")";
 	}
 }

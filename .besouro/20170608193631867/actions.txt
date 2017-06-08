@@ -79,3 +79,11 @@ RefactoringAction 1496945162039 PlanetExplorer.java ADD int vozilo FIELD
 RefactoringAction 1496945163567 PlanetExplorer.java RENAME vozilo=>int voziloY FIELD
 EditAction 1496945313196 PlanetExplorer.java 1723 3 8 0
 EditAction 1496945316631 TestPlanetExplorer.java 1436 5 14 4
+UnitTestCaseAction 1496945320654 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496945320656 TestPlanetExplorer.java FAIL
+RefactoringAction 1496945432533 PlanetExplorer.java ADD String smer FIELD
+RefactoringAction 1496945611297 TestPlanetExplorer.java REMOVE test_SamoJednomDesno() METHOD
+RefactoringAction 1496945611301 TestPlanetExplorer.java REMOVE test_SamoJednomLevo() METHOD
+RefactoringAction 1496945611302 TestPlanetExplorer.java REMOVE test_SamoJednomNazad() METHOD
+RefactoringAction 1496945611303 TestPlanetExplorer.java REMOVE test_VoziloUCelijiSaPreprekom() METHOD
+EditAction 1496945688375 PlanetExplorer.java 1983 3 8 0
