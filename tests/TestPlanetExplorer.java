@@ -34,5 +34,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(3,3 ,"(0,1)");
 		explorer.executeCommand("f");
 	}*/
-	
+	@Test 
+	public void test_ffrf()throws PlanetExplorerException{
+		PlanetExplorer explorer = new PlanetExplorer(3,3 ,null);
+		String result=explorer.executeCommand("b");
+		assertEquals("(1,2,E)", result);
+	}
 }
