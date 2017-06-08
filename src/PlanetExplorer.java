@@ -64,7 +64,7 @@ public class PlanetExplorer {
 					voziloY=x;
 			}
 				//istok
-				else if(i == 1){
+			else if(j == 1){
 				if (komanda[i].equals("f"))
 					voziloX++;
 				if(komanda[i].equals("l"))

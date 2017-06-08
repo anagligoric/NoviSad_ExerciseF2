@@ -158,3 +158,6 @@ UnitTestSessionAction 1496946983186 TestPlanetExplorer.java FAIL
 EditAction 1496947022017 PlanetExplorer.java 2434 3 13 0
 CompilationAction 1496947025042 PlanetExplorer.java
 EditAction 1496947042514 PlanetExplorer.java 2449 3 14 0
+UnitTestCaseAction 1496947046581 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947046584 TestPlanetExplorer.java FAIL
+EditAction 1496947073720 PlanetExplorer.java 2448 3 14 0
