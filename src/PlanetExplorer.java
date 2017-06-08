@@ -85,6 +85,7 @@ public class PlanetExplorer {
 		return "(" + voziloX + "," + voziloY +"," + "N)";
 		else if(j==0)
 			return "(" + voziloX + "," + voziloY +"," + "E)";
+		return null;
 	}
 
 }
