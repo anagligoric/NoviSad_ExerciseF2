@@ -32,6 +32,8 @@ public class PlanetExplorer {
 				return "(0,0,E)";
 			case "l":
 				return "(0,0,W)";
+			case "b":
+				return "(0,2,N)";
 		}
 		return null;
 	}
