@@ -15,7 +15,7 @@ public class TestPlanetExplorer {
 		String result=explorer.executeCommand("f");
 		assertEquals("(0,1,N)", result);
 	}
-	@Test
+	/*@Test
 	public void test_SamoJednomDesno() throws PlanetExplorerException{
 		PlanetExplorer explorer = new PlanetExplorer(3,3 ,"(2,2)");
 		String result=explorer.executeCommand("r");
@@ -37,6 +37,6 @@ public class TestPlanetExplorer {
 	public void test_VoziloUCelijiSaPreprekom() throws PlanetExplorerException{
 		PlanetExplorer explorer = new PlanetExplorer(3,3 ,"(0,1)");
 		explorer.executeCommand("fflr");
-	}
+	}*/
 	
 }
