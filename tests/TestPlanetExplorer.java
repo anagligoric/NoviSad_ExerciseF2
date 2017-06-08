@@ -29,10 +29,10 @@ public class TestPlanetExplorer {
 		String result=explorer.executeCommand("b");
 		assertEquals("(0,2,N)", result);
 	}
-	/*@Test (expected=PlanetExplorerException.class)
+	@Test (expected=PlanetExplorerException.class)
 	public void test_VoziloUCelijiSaPreprekom() throws PlanetExplorerException{
 		PlanetExplorer explorer = new PlanetExplorer(3,3 ,"(0,1)");
 		explorer.executeCommand("fflr");
-	}*/
+	}
 	
 }
